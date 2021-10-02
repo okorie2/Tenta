@@ -269,6 +269,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: -13%;
+  }
+  .logo img {
+    width: 38%;
+  }
   .head {
     padding-right: 0%;
   }
@@ -316,6 +322,12 @@ a:hover {
   }
   .fa-quote-right {
     padding: 4%;
+  }
+  .testimony {
+    padding-bottom: 58%;
+  }
+  .ft {
+    margin-left: 25%;
   }
 }
 
