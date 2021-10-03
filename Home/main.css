@@ -9,7 +9,7 @@
       rgba(129, 122, 122, 0),
       rgb(49, 46, 46)
     ),
-    url("./Images/bg3.jpg");
+    url("/Home/Images/bg3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
