@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/Home/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -46,7 +47,8 @@
     </nav>
 
     <div class="home" id='home'>
-      <div class="center">
+      <div class="center"  data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
         <div class="logo"><img src="/Home/Images/logo.PNG" alt="tenta logo" /></div>
         <h1>Tenta Company</h1>
         <h3>Nigeria Ltd</h3>
@@ -60,7 +62,8 @@
       <h2>What We Do</h2>
       <div class="line2"></div>
       <div class="grid-3">
-        <div>
+        <div  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
           <i
             class="fas fa-border-none"
             style="font-size: 48px; color: #fca311"
@@ -74,7 +77,8 @@
             remaining essentially unchanged.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-down"
+        data-aos-anchor-placement="bottom-bottom" >
           <i class="fas fa-city" style="font-size: 48px; color: #fca311"></i>
 
           <h3>House Extension</h3>
@@ -86,7 +90,10 @@
             remaining essentially unchanged.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
           <i
             class="fab fa-cloudscale"
             style="font-size: 48px; color: #fca311"
@@ -131,7 +138,10 @@
             remaining essentially unchanged.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
           <i
             class="fas fa-hospital-alt"
             style="font-size: 48px; color: #fca311"
@@ -149,7 +159,8 @@
       </div>
     </div>
 
-    <div class="about" id="about">
+    <div class="about" id="about" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <div class="highlights">
         <div class="tick">
           <i class="fas fa-thumbs-up" style="font-size: 48px; color: grey"></i>
@@ -351,14 +362,16 @@
 <div class="testimony" id="testimonials">
   <div class="grid-3b">
     
-    <div>
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
   <i class="	fas fa-quote-right" style="font-size:38px; color: grey"></i>
   <h5>Jonathan Clarke, Thunderbridge</h5>
   <p>has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more</p>
 <p> through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the </p>
 
 </div>
-<div>
+<div data-aos="fade-up"
+data-aos-anchor-placement="bottom-bottom">
   <i class="	fas fa-quote-right" style="font-size:38px; color: grey"></i>
 
   <h5>Jonathan Clarke, Thunderbridge</h5>
@@ -366,7 +379,8 @@
 <p> through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the </p>
 
 </div>
-<div>
+<div data-aos="fade-up"
+data-aos-anchor-placement="bottom-bottom">
   <i class="	fas fa-quote-right" style="font-size:38px; color: grey"></i>
 
   <h5>Jonathan Clarke, Thunderbridge</h5>
@@ -395,7 +409,10 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
