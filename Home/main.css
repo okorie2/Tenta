@@ -18,7 +18,7 @@
   box-shadow: 2px 2px 6px rgb(83, 80, 80);
 }
 .grid-3 svg {
-  margin-left: 50%;
+  margin-left: 48%;
 }
 .home .center {
   padding-top: 10%;
@@ -262,6 +262,10 @@ a:hover {
 .ft {
   margin-left: 35%;
 }
+.ft a {
+  color: black;
+  text-decoration: none;
+}
 .footer div {
   padding: 1%;
 }
@@ -272,6 +276,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .home .center {
+    padding-top: 33% !important;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
   .footer {
     margin-top: -13%;
   }
