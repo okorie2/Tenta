@@ -17,6 +17,9 @@
   height: 100vh;
   box-shadow: 2px 2px 6px rgb(83, 80, 80);
 }
+.grid-3 svg {
+  margin-left: 50%;
+}
 .home .center {
   padding-top: 10%;
   color: #fff;
@@ -263,8 +266,8 @@ a:hover {
   padding: 1%;
 }
 .footer .logo,
-.fa-mail-bulk {
-  margin-left: 20%;
+.bi-envelope-fill {
+  margin-left: 21%;
   cursor: pointer;
 }
 
